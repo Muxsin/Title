@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+* {
+  margin: 0;
+  padding: 0;
+}
+.body{
+  font-family: sans-serif;
+  /*background: #34495e;*/
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-family: 'Quicksand', sans-serif;
+}
+.navbar {
+  background: linear-gradient(to right, #da4453, #89216b);
+  padding: 0 !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.navbar-brand img {
+  height: 60px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+  transition: 0.5s;
+}
+.navbar-nav li a{
+  font-family: 'Quicksand', sans-serif;
+  color: white !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+  transition: 0.5s;
+}
+.fa-bars {
+  color: #fff;
+  font-size: 20px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+.nav-item a{
+  font-size: 20px;
+}
+.nav-item a:hover{
+  font-size: 25px;
+}
+ /*<!--sssssssssssssssssssss!-->*/
+
+
+#banner {
+   background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+  color: black;
+  padding-top: 5%;
+}
+.im {
+  text-align: center;
+}
+.promo-title {
+  color: white;
+  font-weight: 600;
+  font-size: 100px;
+  margin-top: 20px;
+  text-shadow: 0 0 20px #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+#banner a{
+  color: white;
+  text-decoration: none;
+}
+.bottom-img {
+  width: 100%;
+}
+#box {
+  background: linear-gradient(to right, #da4453, #89216b);
+  height: 500px;
+}
+#box .container {
+  padding-top: 40px;
+  position: relative;
+  width: 1200px;
+  height: 300px;
+  margin: 240px auto;
+
+}
+.container .box {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  position: relative;
+  width: calc(370px - 30px);
+  height: calc(300px - 30px);
+  background: linear-gradient(to right, #da4453, #89216b);
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#box .container h1{
+  font-size: 40px;
+  margin-bottom: 35px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  width: 230px;
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+}
+.container .box .content {
+  position: absolute;
+  top: 100%;
+  height: calc(100%-100px);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.container .box:hover .content {
+  top: 100px;
+}
+.container .box .content h3 {
+  margin: 0;
+  padding: 0 0 10px;
+  color: #fff;
+  font-size: 24px;
+}
+.container .box .content p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container .box .icon{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f27121;
+  transition: 0.5s;
+  z-index: 1;
+
+}
+.container .box:hover .icon{
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+}
+.container .box .icon .fa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 80px;
+  transition: 0.5s;
+  color: #fff;
+}
+.container .box:hover .icon .fa{
+  font-size: 40px;
+}
+
+
+.container .box .icon1{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e94057;
+  transition: 0.5s;
+  z-index: 1;
+
+}
+.container .box:hover .icon1{
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+}
+.container .box .icon1 .fa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 80px;
+  transition: 0.5s;
+  color: #fff;
+}
+.container .box:hover .icon1 .fa{
+  font-size: 40px;
+}
+
+.container .box .icon2{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #8a2387;
+  transition: 0.5s;
+  z-index: 1;
+
+}
+.container .box:hover .icon2{
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+}
+.container .box .icon2 .fa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 80px;
+  transition: 0.5s;
+  color: #fff;
+}
+.container .box:hover .icon2 .fa{
+  font-size: 40px;
+}
+#tomintech {
+  margin-top: 100px;
+  width: 100%;
+}
+#tomintech .container{
+  color: white;
+  background: linear-gradient(to right, #da4453, #89216b);
+  text-align: justify;
+  font-size: 22px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#tomintech .container h1
+{
+  font-weight: 600;
+}
+#save .container{
+  color: white;
+  padding: 40px;
+  margin-top: 100px;
+  background: linear-gradient(to right,#89216b, #da4453 );
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#save .save h1{
+  font-weight: 600;
+  padding: 0 0 10px;
+}
+#save .save p{
+  font-size: 22px;
+  text-align: justify;
+}
