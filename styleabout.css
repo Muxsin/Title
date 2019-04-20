@@ -109,3 +109,20 @@ p {
   border-radius: 0;
   padding: 10px 20px;
 }
+#navbar {
+  position: absolute;
+  margin-bottom: 100px;
+  width: 100%;
+  z-index: 1;
+}
+nav {
+  background: #0009;
+  color: white;
+}
+li {
+  list-style: none;
+}
+.fa {
+  color: white;
+  width: 30px;
+}
