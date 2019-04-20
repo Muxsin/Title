@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+.body {
+  background: #212121;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Luna";
+}
+header {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 30vw 0 5vw;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+}
+header h1 {
+  margin-top: -100px;
+}
+header, header:before {
+  background: 50% 50% / cover;
+}
+header::before {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  background-image: url(img/aboutme.jpg);
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-height: 100vh;
+}
+header * {
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin: 0;
+  padding: 0.4em 0;
+}
+#aboutme {
+  position: absolute;
+  background: #212121;
+  margin-top: 200px;
+  height: 100%;
+  width: 100%;
+}
+.fa-play {
+  font-size: 100px;
+}
+#aboutme .p-first {
+  margin-bottom: 30px;
+}
+#aboutme h2 {
+  margin-bottom: 47px;
+  margin-top: 12px;
+}
+#aboutme .social-link-text {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#aboutme .about-link {
+  padding-left: 0px;
+}
+#aboutme .about-link li {
+  display: inline-block;
+}
+#aboutme .about-link li a i{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #d6c6b2;
+  margin-right: 10px;
+  font-size: 22px;
+  color: #d6c6b2;
+  transition: all .3s;
+}
+#aboutme .about-link li a i:hover{
+  color: #222222;
+  background: #d6c6b2;
+  background-color: #d6c6b2;
+  width: 53px;
+  height: 53px;
+}
+.color-3 {
+  color:  #d6c6b2;
+}
+p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color:  #d6c6b2;
+}
+.btn-danger {
+  border-radius: 0;
+  padding: 10px 20px;
+}
