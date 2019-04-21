@@ -4,6 +4,7 @@
   padding: 0;
 }
 .body{
+  transform-style: preserve-3d;
   font-family: "Luna";
   /*background: #34495e;*/
 }
