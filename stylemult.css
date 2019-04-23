@@ -68,7 +68,7 @@
   font-size: 100px;
   margin-top: 20px;
   text-shadow: 0 0 20px #fff;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Luna";
 }
 #banner a{
   color: white;
@@ -266,3 +266,19 @@
   text-align: justify;
 }
 /*--------------ABOUT ME--------------------*/
+#tomintech1 .container{
+  padding-top: 40px;
+  position: relative;
+  width: 1200px;
+  margin: 230px auto;
+  background: linear-gradient(to right, #da4453, #89216b);
+  border-radius: 13em 0.5em/1em 0.5em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+.col-md-7 {
+  color: white;
+  vertical-align: center;
+}
+.col-md-7 p {
+  font-size: 20px;
+}
