@@ -274,3 +274,39 @@
 #tomintech .container{
   width: 5000px;
 }
+
+
+
+.page {
+  margin-left: 130px;
+  text-align: center;
+  background-color: #fff;
+  width: 793.7007874px;
+  height: 1122.519685px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.page2 {
+  width: 1093.7007874px;
+  height: 1122.519685px;
+  border-radius: 14px;
+  color: black;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: white;
+}
+.page1 {
+  margin-top: 75.590551181px;
+  margin-left: 113.38582677px;
+  margin-right: 56.692913386px;
+  margin-bottom: 75.590551181px;
+}
+
+.tom p {
+  margin-top: -8px;
+}
+.page1 p {
+  color: black;
+}
